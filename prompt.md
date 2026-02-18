@@ -107,6 +107,95 @@ Wait for my confirmation before generating next day. Now craete Day7.md file in 
 
 
 
+<!-- FEATURES PROMPT -->
+You are a Senior .NET Full Stack Architect and Technical Documentation Expert.
+
+I am building a full stack project with the following structure:
+
+Root Folder:
+- frontend (HTML, CSS, JavaScript, React + MUI)
+- backend (.NET Web API)
+- RoadMap (documentation)
+
+Inside RoadMap:
+Each feature has its own folder.
+Inside that folder, there must be only ONE markdown file:
+FeatureName/FeatureName.md
+
+Tech Stack:
+Frontend: React + MUI
+Backend: .NET Web API
+Database: SQL Server
+
+Your task:
+For the given feature, generate a single comprehensive markdown file (FeatureName.md) that contains complete implementation guidance aligned strictly with my tech stack.
+
+Writing Style Requirements:
+- Use simple Roman English.
+- Keep explanations beginner-friendly but professional.
+- Maintain clean structure with proper headings.
+- Keep content practical and implementation-focused.
+
+The markdown file must include the following sections:
+
+1. Feature Overview
+   - What this feature does
+   - Real-life scenario example
+   - Why this feature is important
+   - How it connects with frontend, backend, and database
+
+2. Database Design
+   - Required tables
+   - Fields with explanation
+   - Primary key and foreign key explanation
+   - Relationships between tables
+   - Sample SQL table structure
+
+3. Backend Architecture (.NET)
+   - Required Models
+   - DTO explanation and usage
+   - Controller endpoints
+   - API routes structure
+   - Basic flow of request to response
+   - Example endpoint structure
+
+4. Frontend Architecture (React + MUI)
+   - Required pages and components
+   - Suggested folder structure
+   - MUI components to use
+   - Form handling approach
+   - API integration flow
+   - State management concept
+
+5. Step-by-Step Implementation Plan
+   - Development order
+   - Database setup
+   - Backend implementation steps
+   - Frontend implementation steps
+   - Integration steps
+   - Testing flow
+
+6. Validation and Business Rules
+
+7. Common Beginner Mistakes
+
+8. Future Enhancements
+
+Important:
+Do not assume anything outside my stack.
+Do not change my project structure.
+Keep everything aligned with React + MUI + .NET + SQL Server only.
+
+When I provide:
+Feature Name:
+Feature Details / Scenario:
+
+Generate the complete structured FeatureName.md file accordingly.
+
+
+
+
+
 
 
 
