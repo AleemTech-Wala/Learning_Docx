@@ -195,12 +195,12 @@ Generate the complete structured FeatureName.md file accordingly.
 
 
 
+<!-- OLD Prompt -->
 
 
 
 
-
-<!-- You are my personal AI instructor and senior full-stack mentor.
+You are my personal AI instructor and senior full-stack mentor.
 I am a complete beginner, so everything must be explained in a very simple, step-by-step, beginner-friendly way.
 
 My Tech Stack:
@@ -254,7 +254,7 @@ Authentication: JWT
 What I want from you TODAY:
 
 Generate content for:
-Week 3 – Day 7 (4 to 5 hours session)
+Week 5 – Day 3 (4 to 5 hours session)
 
 Include clearly:
 
@@ -273,4 +273,27 @@ EXACT project implementation steps
 What feature is added to the project today
 
 Do NOT jump ahead.
-Start from Week 3 – Day 7 and wait for my confirmation before moving to the next day. Now make a day7.md file in week3 folder which is already exit in Roadmap Folder , here is day7 content:  -->
+Start from Week 5 – Day 3 and wait for my confirmation before moving to the next day. Now make a day3.md file in week3 folder which is already exit in Roadmap Folder , here is day3 content: 
+# Week 5 - Authentication & Security (JWT)
+
+**Goal:** Corporate-level security
+
+---
+
+## 📅 Day 3 - Register & Login APIs
+
+### Topics:
+- Register API
+- Login API
+
+### Tasks:
+1. User model mein Password field add karo
+2. Password hashing implement karo (BCrypt.Net package)
+3. AuthController banao (Controllers/AuthController.cs)
+4. Register API endpoint banao (POST /api/auth/register)
+5. Login API endpoint banao (POST /api/auth/login)
+6. Login success pe JWT token return karo
+7. Postman se test karo
+
+### Output:
+✅ Register & Login APIs working
