@@ -254,7 +254,7 @@ Authentication: JWT
 What I want from you TODAY:
 
 Generate content for:
-Week 5 – Day 3 (4 to 5 hours session)
+Week 5 – Day 7 (4 to 5 hours session)
 
 Include clearly:
 
@@ -273,27 +273,25 @@ EXACT project implementation steps
 What feature is added to the project today
 
 Do NOT jump ahead.
-Start from Week 5 – Day 3 and wait for my confirmation before moving to the next day. Now make a day3.md file in week3 folder which is already exit in Roadmap Folder , here is day3 content: 
+Start from Week 5 – Day 7 and wait for my confirmation before moving to the next day. Now make a day7.md file in week3 folder which is already exit in Roadmap Folder , here is day7 content: 
 # Week 5 - Authentication & Security (JWT)
 
 **Goal:** Corporate-level security
 
 ---
 
-## 📅 Day 3 - Register & Login APIs
+## 📅 Day 7 - Secure APIs & Complete Testing
 
 ### Topics:
-- Register API
-- Login API
+- Secure APIs
+- End-to-end security testing
 
 ### Tasks:
-1. User model mein Password field add karo
-2. Password hashing implement karo (BCrypt.Net package)
-3. AuthController banao (Controllers/AuthController.cs)
-4. Register API endpoint banao (POST /api/auth/register)
-5. Login API endpoint banao (POST /api/auth/login)
-6. Login success pe JWT token return karo
-7. Postman se test karo
-
-### Output:
-✅ Register & Login APIs working
+1. Frontend se protected APIs call karo
+2. Token ke bina API call test karo (401 error)
+3. Token ke saath API call test karo (success)
+4. Role-based access frontend se test karo
+5. Logout functionality test karo
+6. Login flow complete test karo
+7. Security best practices implement karo
+8. Week 5 complete review karo
