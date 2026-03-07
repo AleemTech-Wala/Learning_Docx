@@ -980,7 +980,7 @@ Centralized error handling! ✅
 **Add/Update:**
 
 ```env
-REACT_APP_API_URL=https://localhost:7001
+REACT_APP_API_URL=https://localhost:7190
 ```
 
 **Save:** Ctrl + S
@@ -1000,7 +1000,7 @@ npm start
 ```javascript
 import axios from 'axios';
 
-axios.get('https://localhost:7001/api/users')  // Manual URL
+axios.get('https://localhost:7190/api/users')  // Manual URL
 ```
 
 **After:**
@@ -1350,7 +1350,7 @@ export default Navbar;
 ### ▶️ Step 1: Run Backend & Frontend
 
 **Backend (Visual Studio):**
-1. **Green Play button** → Backend runs on `https://localhost:7001`
+1. **Green Play button** → Backend runs on `https://localhost:7190`
 
 **Frontend (VS Code Terminal):**
 ```bash
@@ -1358,7 +1358,7 @@ cd frontend
 npm start
 ```
 
-Frontend runs on `http://localhost:3000`
+Frontend runs on `http://localhost:5173`
 
 ---
 
