@@ -254,7 +254,7 @@ Authentication: JWT
 What I want from you TODAY:
 
 Generate content for:
-Week 5 – Day 7 (4 to 5 hours session)
+Week 6 – Day 3 (4 to 5 hours session)
 
 Include clearly:
 
@@ -273,25 +273,29 @@ EXACT project implementation steps
 What feature is added to the project today
 
 Do NOT jump ahead.
-Start from Week 5 – Day 7 and wait for my confirmation before moving to the next day. Now make a day7.md file in week3 folder which is already exit in Roadmap Folder , here is day7 content: 
-# Week 5 - Authentication & Security (JWT)
+Start from Week 6 – Day 3 and wait for my confirmation before moving to the next day. Now make a day3.md file in week6 folder which is already exit in Roadmap Folder , here is day3 content: 
+# Week 6 - Final Project Polish & Production Readiness
 
-**Goal:** Corporate-level security
+**Goal:** Join-ready developer banna
 
 ---
 
-## 📅 Day 7 - Secure APIs & Complete Testing
+## 📅 Day 3 - Reusable Components & API Standards
 
 ### Topics:
-- Secure APIs
-- End-to-end security testing
+- Reusable components
+- API response standards
 
 ### Tasks:
-1. Frontend se protected APIs call karo
-2. Token ke bina API call test karo (401 error)
-3. Token ke saath API call test karo (success)
-4. Role-based access frontend se test karo
-5. Logout functionality test karo
-6. Login flow complete test karo
-7. Security best practices implement karo
-8. Week 5 complete review karo
+1. Common components identify karo
+2. Reusable button component banao
+3. Reusable dialog/modal component banao
+4. Reusable data table component banao
+5. Loading spinner component banao
+6. Backend API response format standardize karo:
+   - Success: { success: true, data: {...}, message: "" }
+   - Error: { success: false, error: "...", message: "" }
+7. Status codes consistently use karo (200, 201, 400, 401, 404, 500)
+
+### Output:
+✅ Reusable components ready aur API standards implemented
