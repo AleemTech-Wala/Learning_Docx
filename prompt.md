@@ -254,7 +254,7 @@ Authentication: JWT
 What I want from you TODAY:
 
 Generate content for:
-Week 6 – Day 3 (4 to 5 hours session)
+Week 6 – Day 5 (4 to 5 hours session)
 
 Include clearly:
 
@@ -273,29 +273,29 @@ EXACT project implementation steps
 What feature is added to the project today
 
 Do NOT jump ahead.
-Start from Week 6 – Day 3 and wait for my confirmation before moving to the next day. Now make a day3.md file in week6 folder which is already exit in Roadmap Folder , here is day3 content: 
+Start from Week 6 – Day 5 and wait for my confirmation before moving to the next day. Now make a day5.md file in week6 folder which is already exit in Roadmap Folder , here is day5 content: 
 # Week 6 - Final Project Polish & Production Readiness
 
 **Goal:** Join-ready developer banna
 
 ---
 
-## 📅 Day 3 - Reusable Components & API Standards
+### 📅 Day 5 - Full System Testing & Bug Fixing
 
 ### Topics:
-- Reusable components
-- API response standards
+- Full system testing
+- Bug fixing
 
 ### Tasks:
-1. Common components identify karo
-2. Reusable button component banao
-3. Reusable dialog/modal component banao
-4. Reusable data table component banao
-5. Loading spinner component banao
-6. Backend API response format standardize karo:
-   - Success: { success: true, data: {...}, message: "" }
-   - Error: { success: false, error: "...", message: "" }
-7. Status codes consistently use karo (200, 201, 400, 401, 404, 500)
+1. Complete user flow test karo:
+   - Register → Login → Dashboard → CRUD operations → Logout
+2. All APIs Postman se test karo
+3. Frontend-backend integration test karo
+4. Different scenarios test karo (success, error, empty data)
+5. Browser console errors check karo
+6. Network tab mein API calls monitor karo
+7. Bugs list banao aur fix karo
+8. Edge cases handle karo
 
 ### Output:
-✅ Reusable components ready aur API standards implemented
+✅ Bugs fixed aur system stable
